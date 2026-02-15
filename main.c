@@ -23,7 +23,7 @@ int main(int argc, const char * argv[]) {
     printf("Student List :\n");
     temp = head;
     while(temp){
-        printf("%d ", temp->id);
+        printf("%d", temp->id);
         printf(" %s\n", temp->name);
         temp=temp->next;
     }
